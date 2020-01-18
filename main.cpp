@@ -1,6 +1,9 @@
 #include <iostream>
+#include <windows.h>
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    SetConsoleOutputCP(65001);
+
+    std::cout << "안녕하세요" << std::endl;
     return 0;
 }
