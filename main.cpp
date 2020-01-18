@@ -1,9 +1,11 @@
 #include <iostream>
 #include <windows.h>
 
+using namespace std;
+
 int main() {
     SetConsoleOutputCP(65001);
 
-    std::cout << "안녕하세요" << std::endl;
+    cout << "안녕하세요" << endl;
     return 0;
 }
